@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+	<head>
+		<meta charset="utf8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./../css/style.css">
+		<title>Projekt</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><h1>Dampfershop</h1></li>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="formular.html" class="active">Formular</a></li>
+					<li><a href="tabelle.html">Tabelle</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="container">
+				<article>
+					<h3>
+						Verdampfer Bestellen: 
+					</h3>
+					<p>
+						Wählen Sie hier zwischen einer kleinen Auswahl an Verdampfern!
+					</p>
+					<form action="tabelle.html" method="POST">
+						<fieldset>
+							<legend>Persönliche Informationen:</legend>
+							<input type="text" name="vorname" placeholder="Vorname">
+							<input type="text" name="nachname" placeholder="Nachname">
+							<input type="date" name="geburtstag"><label for="geburtstag">Geburtsdatum</label>
+							<input type="text" name="adresse" placeholder="Adresse">
+							<input type="email" name="email" placeholder="Email">
+							<input type="tel" name="telefon" placeholder="Telefonnummer">
+						</fieldset>
+						<fieldset>
+							<legend>Wählen Sie ein Produkt:</legend>
+							<ul>
+							<li><input type="radio" name="produkt" value="0">Tfv-8 Big Baby Beast</li>
+							<li><input type="radio" name="produkt" value="1">Wotofo Troll v2</li>
+							<li><input type="radio" name="produkt" value="2">OUMIER Wasp Nano RDA</li>
+							<li><input type="radio" name="produkt" value="3">528 Custom Vapes - Goon RDA</li>
+							<li><input type="radio" name="produkt" value="4">ADVKEN Manta RTA</li>
+							<li><input type="number" name="anzahl" placeholder="Stückzahl">Stückzahl</li>
+							<ul>
+						</fieldset>
+						<input type="reset" value="Zurücksetzen">
+						<input type="submit" value="Bestellen">
+					</form>
+				</article>
+			</div>
+		</main>
+		<footer>
+			<p>Dampfershop &copy; 2017 - <a href="mailto:brandt.nicolai@gmail.com">Nicolai Brandt</a></p>
+		</footer>
+	</body>
+</html>

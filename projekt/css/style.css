@@ -1,0 +1,193 @@
+body {
+	margin: 120px 0 120px 0;
+	font-family: Arial, sans-serif;
+}
+
+a {
+	color: darkorange;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+.container {
+	margin: 0 auto;
+	width: 600px;
+}
+
+nav {
+	position: absolute;
+	padding-top: 15px;
+	top: 0;
+	left: 0;
+	right: 0;
+    background-color: #f3f3f3;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+
+}
+
+nav ul li {
+	float: left;
+	display: inline;
+	vertical-align: middle;
+}
+
+nav ul li h1 {
+	color: #777;
+	font-size: 1em;
+	padding: 14px 14px 14px 35px;
+	margin: 0;
+
+text-shadow: #999 0 4px 5px;
+
+}
+
+nav ul li a {
+	margin: 0px 5px;
+	font-size: 1em;
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+nav ul li a:hover {
+	background-color: #ccc;
+	color: #333;
+}
+
+nav ul li a.active {
+	background-color: white;
+	border-bottom: 1px solid white;
+}
+
+
+footer {
+	font-size: 0.8em;
+	position: fixed;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: #ccc;
+	text-align: center;
+	border-top: 1px solid #666;
+}
+
+footer a {
+	color: red;
+}
+
+footer a:hover {
+	color: darkred;
+}
+
+form {
+	background-color: #f3f3f3;
+	padding: 12px;
+	width: 600px;
+	box-sizing: border-box;
+}
+
+fieldset {
+	border-radius: 8px;
+	border: 1px solid #999;
+	margin-bottom: 24px;
+	padding: 12px;
+}
+
+input {
+	width: 100%;
+	padding: 12px 12px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+label {
+	float: left;
+	padding: 20px;
+}
+
+input[type=date] {
+	width: 30%;
+	float: left;
+}
+
+input[type=number] {
+	width: 90px;
+	margin-right: 12px;
+}
+input[type=radio] {
+	width: 35px;
+}
+
+input[type=reset] {
+	width: 49%;
+}
+
+input[type=submit] {
+	width: 49%;
+}
+
+form ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+table {
+	width: 600px;
+}
+
+th, td {
+	padding: 15px;
+	text-align: left;
+}
+
+tr:nth-child(even) {
+	background-color: #f3f3f3;
+}
+
+.main_article {
+	margin-top: 40px;
+	overflow: auto;
+	font-size: 0.8em;
+}
+
+.article_head {
+	font-size: 1.2em;
+	font-weight: bold;
+	background-color: #e7e7e7;
+	padding: 15px;
+}
+
+.article_body {
+	padding: 15px;
+}
+
+.article_body p::first-letter {
+	font-size: 1.5em;
+	font-family: serif;
+	font-weight: bold; 
+}
+
+.article_image {
+
+}
+
+.article_image img {
+	padding: 15px;
+	width: 30%;
+	display: block;
+	float: left;
+}
